@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Sun Nov 19 03:39:15 KST 2017
+1.base=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+1.file=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+4.set=ANDROID_RESOURCE
+2.base=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_
+3.set=DEX
+2.set=ANDROID_RESOURCE
+2.file=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+0.set=ANDROID_RESOURCE
+0.base=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+0.file=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.base=/Users/choibowon/AndroidStudioProjects/tstGPS1/app/build/intermediates/res/resources-debug.ap_

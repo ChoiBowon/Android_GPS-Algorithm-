@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:stretchColumns="1"
+	android:background="#2F4F4F"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<TableRow android:layout_margin="20px">
+	    <TextView
+	    	android:layout_marginRight="10px"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center"
+	    	android:textStyle="bold"
+			android:textColor="#ffff"
+			android:textSize="50px"
+	    	android:text="GPS" />
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="30px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#ff00"
+			android:textSize="30px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="New location" />
+
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="분류" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:textStyle="bold"
+			android:id="@+id/etProvider"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+
+	<TableRow android:layout_margin="1px">
+	    <TextView
+	    	android:layout_marginRight="10px"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center"
+	    	android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+	    	android:text="경도(Longitude)" />
+        <EditText
+        	android:background="#f777" android:textColor="#f0f0"
+        	android:editable="false"
+        	android:textStyle="bold"
+        	android:textSize="26px"
+    		android:id="@+id/etLongitude"
+    		android:padding="4px" android:layout_height="36px"
+    		android:layout_width="fill_parent" />		
+	</TableRow>
+    	
+    <TableRow android:layout_margin="1px">
+        <TextView
+        	android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:gravity="center" 
+        	android:text="위도(Latitude)" />
+        <EditText
+        	android:background="#f777" android:textColor="#f0f0"
+        	android:editable="false"
+        	android:textStyle="bold"
+        	android:textSize="26px"
+    		android:id="@+id/etLatitude"
+    		android:layout_width="fill_parent"
+    		android:padding="4px" android:layout_height="36px" />
+    </TableRow>
+    
+	<TableRow android:layout_margin="1px">
+        <TextView 
+        	android:layout_width="wrap_content" 
+        	android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+        	android:layout_height="wrap_content"
+        	android:gravity="center" 
+        	android:text="정확도(meters)" />
+        <EditText
+        	android:background="#f777" android:textColor="#ffff"
+        	android:editable="false"
+        	android:textSize="26px"
+        	android:textStyle="bold"
+    		android:id="@+id/etAccuracy"
+    		android:layout_width="fill_parent"
+    		android:padding="4px" android:layout_height="36px" />
+    </TableRow>    
+    
+	<TableRow android:layout_margin="1px">
+        <TextView 
+        	android:layout_width="wrap_content" 
+        	android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+        	android:layout_height="wrap_content"
+        	android:gravity="center" 
+        	android:text="속도(m/sec)" />
+        <EditText
+        	android:background="#f777" android:textColor="#ffff"
+        	android:editable="false"
+        	android:textStyle="bold"
+        	android:textSize="26px"
+    		android:id="@+id/etSpeed"
+    		android:layout_width="fill_parent"
+    		android:padding="4px" android:layout_height="36px" />
+    </TableRow>
+    
+	<TableRow android:layout_margin="1px">
+        <TextView 
+        	android:layout_width="wrap_content" 
+        	android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+        	android:layout_height="wrap_content"
+        	android:gravity="center" 
+        	android:text="고도" />
+        <EditText
+        	android:background="#f777" android:textColor="#ffff"
+        	android:editable="false"
+        	android:textSize="26px"
+        	android:textStyle="bold"
+    		android:id="@+id/etAltitude"
+    		android:layout_width="fill_parent"
+    		android:padding="4px" android:layout_height="36px" />
+    </TableRow>
+    
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="위성수" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:textStyle="bold"
+			android:id="@+id/etSatellites"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+
+    </TableRow>
+    
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="네트워크 카운트" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:id="@+id/etNetwork"
+			android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+
+    </TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="실내외 여부" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:id="@+id/etResult"
+			android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+
+	</TableRow>
+
+	<TableRow android:layout_margin="20px">
+
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="30px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#ff00"
+			android:textSize="30px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Current Best Location" />
+
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="분류" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:textStyle="bold"
+			android:id="@+id/stProvider"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#ffff"
+			android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="경도(Longitude)" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:id="@+id/stLongitdue"
+			android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="위도(Latitude)" />
+		<EditText
+			android:background="#f777" android:textColor="#f0f0"
+			android:editable="false"
+			android:textStyle="bold"
+			android:textSize="26px"
+			android:id="@+id/stLatitude"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="정확도(meters)" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:textStyle="bold"
+			android:id="@+id/stAccuracy"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="속도(m/sec)" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textStyle="bold"
+			android:textSize="26px"
+			android:id="@+id/stSpeed"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+	<TableRow android:layout_margin="1px">
+		<TextView
+			android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="고도" />
+		<EditText
+			android:background="#f777" android:textColor="#ffff"
+			android:editable="false"
+			android:textSize="26px"
+			android:textStyle="bold"
+			android:id="@+id/stAltitude"
+			android:layout_width="fill_parent"
+			android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+	<TableRow android:layout_margin="1px">
+	<TextView
+		android:layout_width="wrap_content"
+		android:textStyle="bold" android:textColor="#ffff" android:textSize="26px"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="위성수" />
+	<EditText
+		android:background="#f777" android:textColor="#ffff"
+		android:editable="false"
+		android:textSize="26px"
+		android:textStyle="bold"
+		android:id="@+id/stSatellites"
+		android:layout_width="fill_parent"
+		android:padding="4px" android:layout_height="36px" />
+	</TableRow>
+
+	<TableRow android:layout_marginTop="30px">
+        <TextView 
+        	android:layout_width="wrap_content"
+        	android:textStyle="bold" android:textColor="#ff00" android:textSize="26px"
+        	android:layout_height="wrap_content"
+        	android:gravity="center" 
+        	android:text="NMEA0183" />	
+    </TableRow>
+    
+    <TableRow android:layout_margin="1px">
+        <EditText
+        	android:background="#0000" android:textColor="#fff0"
+        	android:layout_span="2"
+        	android:editable="false"
+    		android:id="@+id/etNmea0183"
+    		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+    		android:singleLine="false"
+    		android:textSize="20px" />
+    </TableRow>    
+    
+</TableLayout>
